@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+
+.container{
+    height: 5000px;
+    width: 100%;
+    /* border: 3px solid black; */
+    overflow: hidden;
+    position: absolute;
+}
+.container1{
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+   
+    height:450px;
+    width: 60%;
+    /* border: 3px solid black; */
+    overflow: hidden;
+}
+.s6{
+    height: 500px;
+    background-color: rgb(237, 233, 229);
+    padding: 10px;
+}
+
+img{
+    overflow: hidden;
+    width: 100%;
+
+}
+#photo{
+height: 600px;
+width: 100%;
+ 
+overflow: hidden;
+}
+.sub{
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    top: 30%;
+    left: 40%;
+}
+.sub3{
+    position: absolute;
+    
+}
